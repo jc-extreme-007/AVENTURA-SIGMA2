@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AVENTURA SIGMA</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="interiorcasa.jpg" height="160px", width="700px" alt="">
+            <img src="bob_esponja_agiota_4.jpg" height="400px", width="700px" alt="">
+            <p>Certo dia, eu estava de boa na minha casa quando o Bob Esponja Agiota entrou na minha sala de estar e me mandou em uma missão em busca do Sigma, seu subordinado. Por onde começarei a busca?</p>
+            <button class="btn-proximo" data-proximo="1">Hugolândia</button>
+            <button class="btn-proximo" data-proximo="2">mata atlântica</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="ladraofeio.jpg" height="400px", width="700px" alt="">
+            <p>Você pega um trem em direçâo à lendária cidade Hugolândia. Ao chegar lá, você é confrontado por um ladrão. A faca dele parece falsa. O que você irá fazer?</p>
+            <button class="btn-proximo" data-proximo="6-EX">fugir</button>
+            <button class="btn-proximo" data-proximo="4">lutar</button>
+            <button class="btn-proximo" data-proximo="fim de jogo ladrao">entregar dinheiro</button>
+        </div>
+        <div class="passo" id="passo-1-EX">
+            <img src="ladraofeio.jpg" height="400px", width="700px" alt="">
+            <p>O guarda te leva até a cidade. Alguns minutos após andar pela cidade, você é confrontado por um ladrão. A faca dele parece falsa. O que você irá fazer?</p>
+            <button class="btn-proximo" data-proximo="6-EX">fugir</button>
+            <button class="btn-proximo" data-proximo="4">lutar</button>
+            <button class="btn-proximo" data-proximo="fim de jogo ladrao">entregar dinheiro</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="mataatlantica.jpg" height="400px", width="700px" alt="">
+            <p>Você vai em um avião clandestino fornecido pelo Bob em direçâo à mata atlântica, mas na aterrisagem houve um acidente e o avião caiu. O que você fará?</p>
+            <button class="btn-proximo" data-proximo="final naturalista">procurar comida</button>
+            <button class="btn-proximo" data-proximo="3">procurar pessoas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="guardaflorestal.jpg" height="200px", width="700px" alt="">
+            <p>Após horas vagando pela floresta, você se depara com um guarda florestal, que oferece te levar até a cidade de Hugolandia</p>
+            <button class="btn-proximo" data-proximo="1-EX">aceitar a ajuda</button>
+            <button class="btn-proximo" data-proximo="fim de jogo fome">continuar a andar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="criminosoluta.jpg" height="400px", width="700px" alt="">
+            <p></p>
+            <button class="btn-proximo" data-proximo="5">chutar</button>
+            <button class="btn-proximo" data-proximo="5">socar</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="ladraofuga.jpg" height="400px", width="700px" alt="">
+            <p>O ladrão, com medo de ser nocauteado e preso, foge após levar seu golpe</p>
+            <button class="btn-proximo" data-proximo="6-EX">prosseguir com o caminho</button>
+            <button class="btn-proximo" data-proximo="finaldesistente">ir embora</button>
+        </div>
+        <div class="passo" id="passo-6-EX">
+            <img src="gigachad2.png" height="400px", width="700px" alt="">
+            <p>Você chega na casa de Gigachad. Ele diz saber tudo, e que pode perguntar qualquer coisa. Qual sua pergunta?</p>
+            <button class="btn-proximo" data-proximo="7">onde tá o Sigma?</button>
+            <button class="btn-proximo" data-proximo="finalzen">qual o significado da vida</button>
+            <button class="btn-proximo" data-proximo="finalsanandreas">como pega o jetpack no gta san andreas</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="masmorradosofrimentoeterno.jpg" height="400px", width="700px" alt="">
+            <p>Gigachad disse que o Sigma estava em uma masmorra, especificamente a Masmorra do Sofrimento Eterno™</p>
+            <p>Ao chegar lá, você se depara com um piso estranho.</p>
+            <button class="btn-proximo" data-proximo="fimdejogomasmorra">andar</button>
+            <button class="btn-proximo" data-proximo="8">pular</button>
+        </div>
+            <div class="passo" id="passo-8">
+                <img src="guardaesqueleto.png" height="400px", width="700px" alt="">
+                <p>você finalmente usou seu cérebro e pulou por cima do piso, que obviamente era uma armadilha.</p>
+                <p>porém, no próximo quarto há um grupo de guardas esqueléticos. o que fazer?</p>
+                <button class="btn-proximo" data-proximo="fimdejogoguarda">lutar</button>
+                <button class="btn-proximo" data-proximo="9">osteoporose</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="conjuraosteoporose.png" height="300px", width="350px" alt="">
+            <img src="alavancas.png" height="300px", width="350px" alt="">
+            <p>você conjura osteoporose, que instantaneamente derrota os guardas. você não sabe como fez isso mas prossegue pelo caminho.</p>
+            <p>à sua frente estão 5 alavancas. qual delas você ativará?</p>
+            <button class="btn-proximo" data-proximo="fimdejogoalavanca1">primeira</button>
+            <button class="btn-proximo" data-proximo="fimdejogoalavanca2">segunda</button>
+            <button class="btn-proximo" data-proximo="fimdejogoalavanca3">terceira</button>
+            <button class="btn-proximo" data-proximo="10">quarta</button>
+            <button class="btn-proximo" data-proximo="fimdejogoalavanca5">quinta</button>
+            <button class="btn-proximo" data-proximo="finalesqueletico">fazer nada</button>
+    </div>
+        <div class="passo" id="passo-10">
+            <img src="sigma.png" height="400px", width="700px" alt="">
+            <p>ao puxar a alavanca, uma porta se abre</p>
+            <p>lá, você encontra Sigma relaxando em uma cadeira de praia.</p>
+            <button class="btn-proximo" data-proximo="finaltraidor">atacar</button>
+            <button class="btn-proximo" data-proximo="finalcomum">levá-lo ao Bob</button>
+            <button class="btn-proximo" data-proximo="finalrelaxante">relaxar</button>
+            <button class="btn-proximo" data-proximo="finalinterdimensional">construir um portal</button>
+            <button class="btn-proximo" data-proximo="finalexplosivo">ascender um isqueiro</button>
+            <button class="btn-proximo" data-proximo="finaldesistente">fazer nada</button>
+    </div>
+    <div class="passo" id="passo-finaltraidor">
+        <img src="finaltraidorhomemmalefico.png" height="300px", width="350px" alt="">
+        <img src="finaltraidorsigmatransformaçao.gif" height="300px", width="350px" alt="">
+        <audio src="Your Best Nightmare (No Laugh).mp3" autoplay controls></audio>
+        <p class="finaltraidor">FINAL TRAIDOR</p>
+        <p>com intenções maléficas, você se aproxima de Sigma</p>
+        <p>ciente de suas más intençôes, Sigma ativa sua transformação coringa para te eliminar.</p>
+        <button class="btn-proximo" data-proximo="0">recomeçar</button>
+    </div>
+    <div class="passo" id="passo-finalcomum">
+        <img src="sigma.png" height="300px", width="350px" alt="">
+        <img src="bob_esponja_agiota_4.jpg" height="300px", width="350px" alt="">
+        <audio src="Portal - 'Still Alive'.mp3" autoplay controls></audio>
+        <p>FINAL NORMAL</p>
+        <p>você diz a Sigma que o Bob está o procurando. Ele aceita sua proposta de levá-lo.</p>
+        <p>ao entregá-lo, Bob te dispensa devolta para sua casa.</p>
+        <button class="btn-proximo" data-proximo="0">recomeçar</button>
+    </div>
+    <div class="passo" id="passo-finalrelaxante">
+        <img src="sigma.png" height="300px", width="350px" alt="">
+        <img src="finalrelaxantecadeirapraia.jpg" height="300px", width="350px" alt="">
+        <audio src="SpongeBob - Grass Skirt Chase.mp3" autoplay controls></audio>
+        <p class="finalrelaxante">FINAL RELAXANTE</p>
+        <p>você decide seguir o exemplo do Sigma e relaxa na praia junto a ele.</p>
+        <button class="btn-proximo" data-proximo="0">recomeçar</button>
+    </div>
+    <div class="passo" id="passo-finalinterdimensional">
+        <img src="sigma.png" height="300px", width="350px" alt="">
+        <img src="finalrelaxantecadeirapraia.jpg" height="300px", width="350px" alt="">
+        <audio src="SpongeBob - Grass Skirt Chase.mp3" autoplay controls></audio>
+        <p class="finalrelaxante">FINAL RELAXANTE</p>
+        <p>você decide seguir o exemplo do Sigma e relaxa na praia junto a ele.</p>
+        <button class="btn-proximo" data-proximo="0">recomeçar</button>
+    </div>
+        <div class="passo" id="passo-finalzen">
+            <img src="finalzenjardim.png" height="300px", width="350px" alt="">
+            <img src="finalzen.jpg" height="300px", width="350px" alt="">
+            <audio src="Zen Garden.mp3" autoplay controls></audio>
+            <p class="finalzen">FINAL ZEN</p>
+            <p>você, satisfeito com a resposta e em paz com si mesmo, volta para casa e entra no jardim zen do PvZ.</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-fim de jogo fome">
+            <img src="fimdejogo.jpg" height="400px", width="700px" alt="">
+            <audio src="Undertale Game Over Theme.mp3" autoplay controls></audio>
+            <p>você andou pela floresta, mas não encontrou nada e acabou morrendo de fome.</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-fimdejogomasmorra">
+            <img src="fimdejogo.jpg" height="400px", width="700px" alt="">
+            <audio src="Undertale Game Over Theme.mp3" autoplay controls></audio>
+            <p>você andou como um tolo, sendo empalado por espinhos e morto na hora.</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-fimdejogoguarda">
+            <img src="fimdejogo.jpg" height="400px", width="700px" alt="">
+            <audio src="Undertale Game Over Theme.mp3" autoplay controls></audio>
+            <p>você não é páreo para os guardas, e é destroçado em instantes.</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-fimdejogoalavanca1">
+            <img src="fimdejogo.jpg" height="400px", width="700px" alt="">
+            <audio src="Undertale Game Over Theme.mp3" autoplay controls></audio>
+            <p>ao ativar a primeira alavanca, você é derrubado em uma cama de espinhos e é morto instantaneamente.</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-fimdejogoalavanca2">
+            <img src="fimdejogo.jpg" height="400px", width="700px" alt="">
+            <audio src="Undertale Game Over Theme.mp3" autoplay controls></audio>
+            <p>ao ativar a segunda alavanca, várias lanças são atiradas em sua direção. você nâo conseguiu desviar</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-fimdejogoalavanca3">
+            <img src="fimdejogo.jpg" height="400px", width="700px" alt="">
+            <audio src="Undertale Game Over Theme.mp3" autoplay controls></audio>
+            <p>ao ativar a terceira alavanca, uma armadilha de rede é acionada e você se prende</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-fimdejogoalavanca5">
+            <img src="fimdejogo.jpg" height="400px", width="700px" alt="">
+            <audio src="Undertale Game Over Theme.mp3" autoplay controls></audio>
+            <p>pensando que essa seria a certa, você ativa a quinta alavanca.</p>
+            <p>você foi teletransportado para a lua. você nâo está com um capacete.</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-fim de jogo ladrao">
+            <img src="fimdejogo.jpg" height="400px", width="700px" alt="">
+            <audio src="Undertale Game Over Theme.mp3" autoplay controls></audio>
+            <p>Você ficou sem dinheiro</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-final naturalista">
+            <img src="finalnaturalista.jpg" height="400px", width="700px" alt="">
+            <audio src="Terraria - Jungle.mp3" autoplay controls></audio>
+            <p class="finalnaturalista">FINAL NATURALISTA</p>
+            <p>você decide não voltar mais à civilizaçâo, e construiu uma casa na floresta.</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-finalsanandreas">
+            <img src="finalgtasa.jpg" height="400px", width="700px" alt="">
+            <audio src="GTA San Andreas - Mission passed sound.mp3" autoplay controls></audio>
+            <p class="finalsanandreas">FINAL SAN ANDREAS</p>
+            <p class="finalsanandreas2">MISSION PASSED</p>
+            <p class="finalsanandreas3">RESPECT +</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-finaldesistente">
+            <h1><img src="pontofinaldesistente.png" height="400px", width="700px" alt=""> </h1>
+            <audio src="mus_smile.mp3" autoplay controls></audio>
+            <p>FINAL DESISTENTE</p>
+            <p>você desistiu. tenha vergonha de si mesmo</p>
+            <button class="btn-proximo" data-proximo="0">recomeçar</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
